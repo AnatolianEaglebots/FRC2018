@@ -132,7 +132,7 @@ public class Robot extends IterativeRobot {
         indirici.set(false);
                         
         enc.setDistancePerPulse(100);
-        //enc.reset();
+        enc.reset();
         
         CameraServer.getInstance().startAutomaticCapture();
         
