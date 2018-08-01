@@ -22,7 +22,7 @@ import com.kauailabs.navx.frc.AHRS;
 
 public class Robot extends IterativeRobot {
 		
-	WPI_TalonSRX frontLeftMotor = new WPI_TalonSRX(0);
+	WPI_TalonSRX frontLeftMotor = new WPI_TalonSRX(20);
 	WPI_TalonSRX frontRightMotor = new WPI_TalonSRX(1);
 	WPI_TalonSRX rearLeftMotor = new WPI_TalonSRX(2);
 	WPI_TalonSRX rearRightMotor = new WPI_TalonSRX(3);
